@@ -51,7 +51,7 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 
 - Learning rate 조절
 
-- 모델에 깊이, 즉 층을 추가하였을때 모델 
+- 모델에 깊이, 즉 층을 추가하였을때 accuracy의 
 
 1.Channel수, epoch&Batch size,learning rate조절해가며 학습.
 ==========================================
