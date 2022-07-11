@@ -92,6 +92,7 @@ Model layer추가
 7.output->loss function->back propagation-> optimize
 
 8.accuracy=39%
+
 층 추가 모델1
 =======
 
