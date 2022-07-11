@@ -157,3 +157,30 @@ Model layer추가
 11.output->loss function->back propagation-> optimize
 
 12.accuracy=51%
+
+층 추가 모델3
+=======
+
+1.input->convolution1->batch normalization->activation function(output channel=32)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.input->convolution3->batch normalization->activation function(output channel=64)
+
+4.input->convolution4->batch normalization->activation function->max pooling(output channel=64)
+
+5.input->convolution5->batch normalization->activation function(output channel=128)
+
+6.input->convolution6->batch normalization->activation function->max pooling(output channel=128)
+
+7.fully connected1->activation function
+
+8.fully connected2->activation function
+
+9.fully connected3->activation function
+
+10.fully connected4
+
+11.output->loss function->back propagation-> optimize
+
+12.accuracy=51%
