@@ -33,7 +33,13 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 
 -Convolution layer(second)=위의 Convolution layer 1층 과정을 한번더 반복해서 적용해줌
 
--Fully Connected layer
+-Fully Connected layer(완전 연결 계층)
+
+이미지별 Class에 속할 확률을 계산해주는 층. 3차원 이미지 데이터를 1차원으로 펼쳐주고 Batch normalization->activation function적용해줌
+
+-Test data
+
+이후에 학습한 모델을 활용하여 Test data에 적용하여 최종 Accuracy 계산
 
 
 
