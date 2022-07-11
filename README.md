@@ -7,4 +7,6 @@ CIFAR100 image classification in Pytorch
 
 목표 accuracy=50%
 
+사용모델 LeNet-5 model
+
 
