@@ -61,3 +61,8 @@ epoch, activation function, batchnormalization, batch size, learning rate 등을
 1.batch size=32일때
 
 최대 6%로 ouput channel을 늘려줬을때 정확도가 향상되는 모습 보임.
+
+Batch size=32일때
+
+![image](https://user-images.githubusercontent.com/104436260/178190359-ba9df277-5478-4f5d-8ce9-89857cd7f348.png)
+
