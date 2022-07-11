@@ -64,7 +64,7 @@ epoch, activation function, batchnormalization, batch size, learning rate 등을
 
 Batch size=32일때
 
-![image](https://user-images.githubusercontent.com/104436260/178190359-ba9df277-5478-4f5d-8ce9-89857cd7f348.png)
+![image](https://user-images.githubusercontent.com/104436260/178210499-299019de-1cac-41ed-bc7f-69362479df54.png)
 
 Batch size=64일때
 
