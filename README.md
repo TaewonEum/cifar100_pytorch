@@ -68,4 +68,7 @@ Batch size=32일때
 
 Batch size=64일때
 
+![image](https://user-images.githubusercontent.com/104436260/178200654-bea70c33-efbf-4f54-b1db-c45d7243e3ea.png)
+
+
 
