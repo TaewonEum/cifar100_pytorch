@@ -7,6 +7,19 @@ CIFAR100 image classification in Pytorch
 
 목표 accuracy=50%
 
-사용모델 LeNet-5 model
+분석 Flow
+=============
 
+1.Input data(32x32x3 color image) 불러오기 및 정규화
+
+2.Built Train Model
+
+-Convolution layer(first) 정의: nn.Module Method 상속받아 사용함
+
+nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=3으로 고정, output channel은 6,16,32 등 세밀한 학습을 위해서 점차적으로 늘려갈 예정
+
+-Batch Normalization layer 추가
+
+학습속도 개선(learning rate를 크게 설정), 가중치 초깃값 선택의 의존성 줄임, 과적합 위험을 줄임(Drop out기능 대체), Gradient Vanishing(기울기 소실문제) 등을 위해 추가
+입력분포를 균일화.
 
