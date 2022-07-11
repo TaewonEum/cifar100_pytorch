@@ -53,3 +53,11 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 
 4.모델에 깊이, 즉 층을 추가하였을때 모델 
 
+1.Channel수와 모델 Accuracy와의 상관관계
+==========================================
+
+epoch, activation function, batchnormalization, batch size, learning rate 등을 모두 동일한 환경으로 하고 convolution 층에서 output channel의 수만 늘렸을 경우
+
+1.batch size=32일때
+
+최대 6%로 ouput channel을 늘려줬을때 정확도가 향상되는 모습 보임.
