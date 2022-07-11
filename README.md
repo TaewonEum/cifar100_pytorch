@@ -23,3 +23,17 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 학습속도 개선(learning rate를 크게 설정), 가중치 초깃값 선택의 의존성 줄임, 과적합 위험을 줄임(Drop out기능 대체), Gradient Vanishing(기울기 소실문제) 등을 위해 추가
 입력분포를 균일화.
 
+-Activation Function 적용
+
+데이터에 비선형성을 추가하기 위하여, 딥러닝에서 자주 사용하는 Activation Function ReLU 함수를 적용함. 데이터에 비선형성을 추가하여 더 복잡한 분류문제 해결 가능
+
+-Maxpooling적용
+
+2x2 size, stride=2인 Maxpooling 적용, pooling layer를 통해 이미지의 특징을 더 부각시키고 정보를 유지하며, 이미지의 크기는 더 줄일 수 있음.
+
+-Convolution layer(second)=위의 Convolution layer 1층 과정을 한번더 반복해서 적용해줌
+
+-Fully Connected layer
+
+
+
