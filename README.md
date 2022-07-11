@@ -68,7 +68,7 @@ Batch size=32일때
 
 Batch size=64일때
 
-![image](https://user-images.githubusercontent.com/104436260/178208068-7f7e60a4-912a-4cb4-8de3-d4fa98cfa7f5.png)
+![image](https://user-images.githubusercontent.com/104436260/178210646-238c3a0f-ca9e-464e-8b54-89fab9b574af.png)
 
 결론: batch size=64, epoch=8, channel=16,32로 넣어줬을때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy 새로 측정
 
