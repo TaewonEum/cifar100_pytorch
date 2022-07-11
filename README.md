@@ -42,4 +42,12 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 이후에 학습한 모델을 활용하여 Test data에 적용하여 최종 Accuracy 계산
 
 
+연구목적
+=========
+
+1.Channel수의 영향
+
+2.epoch와 Batch size간의 상관관계
+
+3.모델에 깊이, 즉 층을 추가하였을때 모델 
 
