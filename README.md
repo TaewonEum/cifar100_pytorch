@@ -70,5 +70,5 @@ Batch size=64일때
 
 ![image](https://user-images.githubusercontent.com/104436260/178200654-bea70c33-efbf-4f54-b1db-c45d7243e3ea.png)
 
-결론: batch size=64, epoch=8일때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy
+결론: batch size=64, epoch=8일때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy 새로 측정
 
