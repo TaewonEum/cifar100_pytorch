@@ -140,11 +140,11 @@ Model layer추가
 
 3.input->convolution3->batch normalization->activation function(output channel=64)
 
-4.input->convolution1->batch normalization->activation function->max pooling(output channel=64)
+4.input->convolution4->batch normalization->activation function->max pooling(output channel=64)
 
-5.input->convolution2->batch normalization->activation function(output channel=128)
+5.input->convolution5->batch normalization->activation function(output channel=128)
 
-6.input->convolution3->batch normalization->activation function->max pooling(output channel=128)
+6.input->convolution6->batch normalization->activation function->max pooling(output channel=128)
 
 7.fully connected1->batch normalization->activation function
 
