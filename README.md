@@ -49,5 +49,7 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 
 2.epoch와 Batch size간의 상관관계
 
-3.모델에 깊이, 즉 층을 추가하였을때 모델 
+3.Learning rate 조절
+
+4.모델에 깊이, 즉 층을 추가하였을때 모델 
 
