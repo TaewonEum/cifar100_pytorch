@@ -45,15 +45,15 @@ nn.Conv2d(input_channel=3, output_channel, filter_size) 첫번째 input channel=
 연구목적
 =========
 
-1.Channel수의 영향
+- Channel수의 영향
 
-2.epoch와 Batch size간의 상관관계
+- epoch와 Batch size간의 상관관계
 
-3.Learning rate 조절
+- Learning rate 조절
 
-4.모델에 깊이, 즉 층을 추가하였을때 모델 
+- 모델에 깊이, 즉 층을 추가하였을때 모델 
 
-1.Channel수와 모델 Accuracy와의 상관관계
+1.Channel수, epoch&Batch size,learning rate조절해가며 학습.
 ==========================================
 
 epoch, activation function, batchnormalization, batch size, learning rate 등을 모두 동일한 환경으로 하고 convolution 층에서 output channel의 수만 늘렸을 경우
@@ -70,5 +70,8 @@ Batch size=64일때
 
 ![image](https://user-images.githubusercontent.com/104436260/178200654-bea70c33-efbf-4f54-b1db-c45d7243e3ea.png)
 
-결론: batch size=64, epoch=8일때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy 새로 측정
+결론: batch size=64, epoch=8, channel=16,32로 넣어줬을때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy 새로 측정
+
+Model layer추가
+=============
 
