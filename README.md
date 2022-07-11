@@ -93,6 +93,7 @@ Model layer추가
 
 8.accuracy=39%
 층 추가 모델1
+=======
 
 1.input->convolution1->batch normalization->activation function->max pooling(output channel=16)
 
@@ -111,6 +112,8 @@ Model layer추가
 8.accuracy=41%
 
 층 추가 모델2
+========
+
 1.input->convolution1->batch normalization->activation function->max pooling(output channel=16)
 
 2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
@@ -128,6 +131,8 @@ Model layer추가
 8.accuracy=44%
 
 층 추가 모델3
+=======
+
 1.input->convolution1->batch normalization->activation function(output channel=32)
 
 2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
