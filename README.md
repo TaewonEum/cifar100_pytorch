@@ -156,4 +156,4 @@ Model layer추가
 
 11.output->loss function->back propagation-> optimize
 
-12.accuracy=%
+12.accuracy=51%
