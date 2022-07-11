@@ -158,7 +158,7 @@ Model layer추가
 
 12.accuracy=51%
 
-층 추가 모델3
+층 추가 모델4
 =======
 
 1.input->convolution1->batch normalization->activation function(output channel=32)
