@@ -68,10 +68,86 @@ Batch size=32일때
 
 Batch size=64일때
 
-![image](https://user-images.githubusercontent.com/104436260/178200654-bea70c33-efbf-4f54-b1db-c45d7243e3ea.png)
+![image](https://user-images.githubusercontent.com/104436260/178208068-7f7e60a4-912a-4cb4-8de3-d4fa98cfa7f5.png)
 
 결론: batch size=64, epoch=8, channel=16,32로 넣어줬을때 39%의 Accuracy로 가장 정확도가 높음 해당 파라미터들을 사용하고, Convolution층을 한층 추가하여 Accuracy 새로 측정
 
 Model layer추가
 =============
 
+기존 모델
+
+1.input->convolution1->batch normalization->activation function->max pooling(output channel=16)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.data flatten
+
+4.fully connected1->activation function
+
+5.fully connected2->activation function
+
+6.fully connected3
+
+7.output->loss function->back propagation-> optimize
+
+8.accuracy=39%
+층 추가 모델1
+
+1.input->convolution1->batch normalization->activation function->max pooling(output channel=16)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.input->convolution3->batch normalization->activation function->max pooling(output channel=32)
+
+4.fully connected1->activation function
+
+5.fully connected2->activation function
+
+6.fully connected3
+
+7.output->loss function->back propagation-> optimize
+
+8.accuracy=41%
+
+층 추가 모델2
+1.input->convolution1->batch normalization->activation function->max pooling(output channel=16)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.input->convolution3->batch normalization->activation function->max pooling(output channel=64)
+
+4.fully connected1->activation function
+
+5.fully connected2->activation function
+
+6.fully connected3
+
+7.output->loss function->back propagation-> optimize
+
+8.accuracy=44%
+
+층 추가 모델3
+1.input->convolution1->batch normalization->activation function(output channel=32)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.input->convolution3->batch normalization->activation function(output channel=64)
+
+4.input->convolution1->batch normalization->activation function->max pooling(output channel=64)
+
+5.input->convolution2->batch normalization->activation function(output channel=128)
+
+6.input->convolution3->batch normalization->activation function->max pooling(output channel=128)
+
+7.fully connected1->batch normalization->activation function
+
+8.fully connected2->batch normalization->activation function
+
+9.fully connected3->batch normalization->activation function
+
+10.fully connected4
+
+11.output->loss function->back propagation-> optimize
+
+12.accuracy=%
