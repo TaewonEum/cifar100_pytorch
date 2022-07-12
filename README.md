@@ -1,4 +1,4 @@
-# cifar100_pytorch~7/15업데이트 예정
+# cifar100_pytorch
 
 CIFAR100 image classification in Pytorch
 =========================
