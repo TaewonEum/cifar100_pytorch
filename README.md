@@ -183,4 +183,38 @@ Model layer추가
 
 11.output->loss function->back propagation-> optimize
 
+12.accuracy=41%
+
+층 추가 모델5
+=============
+
+1.input->convolution1->batch normalization->activation function(output channel=32)
+
+2.input->convolution2->batch normalization->activation function->max pooling(output channel=32)
+
+3.input->convolution3->batch normalization->activation function(output channel=64)
+
+4.input->convolution4->batch normalization->activation function(output channel=64)
+
+5.input->convolution4->batch normalization->activation function->Max pooling(output channel=64)
+
+6.input->convolution5->batch normalization->activation function(output channel=128)
+
+7.input->convolution5->batch normalization->activation function(output channel=128)
+
+8.input->convolution6->batch normalization->activation function->max pooling(output channel=128)
+
+7.fully connected1->batch normalization->activation function
+
+8.fully connected2->batch normalization->activation function
+
+9.fully connected3->batch normalization->activation function
+
+10.fully connected4
+
+11.output->loss function->back propagation-> optimize
+
 12.accuracy=51%
+
+최종적으로 모델3과 모델5의 Accuracy값이 동일하게 가장높게나옴-> 모델3층이 더욱 간단한 구조여서 연산과정이 빠르기 때문에 최종 사용 모델은 모델3으로 선정
+
