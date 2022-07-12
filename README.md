@@ -5,6 +5,8 @@ CIFAR100 image classification in Pytorch
 
 개발환경: Jupyter lab
 
+사용모델: LeNet-5모델에서 Convolution, pooling, fully connected, Batch normalization layer
+
 목표 accuracy=50%
 
 분석 Flow
